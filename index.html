@@ -3,17 +3,171 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+
     <title>Document</title>
-    <link rel="stylesheet" crossorigin href="/portfolio-raul/assets/index-Dw033PkT.css">
+    <link rel="stylesheet" crossorigin href="/portfolio-raul/assets/index-DtJtPu0G.css">
   </head>
   <body>
     <div
-      class="flex items-center justify-center min-h-screen bg-gradient-to-tl from-zinc-900 to-neutral-950"
+      class="bg-gradient-to-b from-zinc-800 to-neutral-900 text-slate-300 font-poppin"
     >
-      <div>
-        <h1 class="mb-2 text-6xl font-bold text-white">Raúl Ruilova</h1>
-        <span class="text-white">Muy pronto...</span>
-      </div>
+      <!-- Navbar -->
+      <nav class="relative p-6 mx-auto border-b border-neutral-600">
+        <div class="flex items-center justify-center">
+          <div class="space-x-8 md:flex">
+            <a
+              href="#"
+              class="font-bold transition-all hover:scale-110 hover:text-white"
+              >Sobre mí</a
+            >
+            <a
+              href="#"
+              class="font-bold transition-all hover:scale-110 hover:text-white"
+              >Experiencia</a
+            >
+            <a
+              href="#"
+              class="font-bold transition-all hover:scale-110 hover:text-white"
+              >Habilidades</a
+            >
+          </div>
+        </div>
+      </nav>
+      <main class="w-full mx-auto md:w-[50%]">
+        <!-- Presentation Section -->
+        <section id="presentation">
+          <div class="py-32">
+            <h1
+              class="mb-4 text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-slate-100 to-blue-300"
+            >
+              Raúl Ruilova
+            </h1>
+            <h2 class="mb-4 text-3xl font-bold">Software Developer</h2>
+            <span class=""
+              >Me apasiona la programación y asumir nuevos retos, considero mi
+              fuerte en el
+              <span class="font-bold">Desarrollo Backend con Python</span>.
+              Siempre con muchas ansias de aprender y crear nuevos proyectos.
+            </span>
+            <div class="flex justify-between mt-8">
+              <div>
+                <div
+                  class="bg-zinc-800 px-5 py-3 border rounded-[30px] w-[150px] text-center border-neutral-600 border-solid scale-[.90] hover:scale-[.95] transition-all cursor-pointer font-bold"
+                >
+                  Ver CV
+                </div>
+              </div>
+
+              <div class="flex items-center w-1/4 justify-evenly">
+                <a target="_blank" href="https://github.com/rrvc12">
+                  <i class="text-3xl devicon-github-original"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/raulruilova/"
+                >
+                  <i class="text-3xl devicon-linkedin-plain"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Experience Section -->
+        <section id="experience">
+          <h2 class="mb-8 text-3xl font-bold">Experiencia</h2>
+          <div class="mb-12">
+            <h3 class="font-bold underline">Software Developer</h3>
+            <a
+              class="text-sm font-bold"
+              target="_blank"
+              href="https://www.trescloud.com/"
+            >
+              TRESCLOUD - Odoo Gold Partner Ecuador
+            </a>
+            <p class="text-sm">Quito, Pichincha, Ecuador (Remoto)</p>
+            <p class="text-sm">jul. 2022 - actualidad</p>
+            <ul class="mt-4 mb-6 space-y-2 text-sm list-disc list-inside">
+              <li>
+                Colaborar para diseñar y desarrollar funcionalidades para la
+                Localización Ecuatoriana oficial de Odoo.
+              </li>
+              <li>
+                Proporcionar soporte eficiente y ágil identificando y
+                desarrollando correcciones de incidencias reportadas en helpdesk
+              </li>
+              <li>
+                Brindar formación y orientación técnica a desarrolladores junior
+              </li>
+              <li>
+                Desarrollar y personalizar módulos de Odoo utilizando Python,
+                Javascript y manejo de versiones con Git
+              </li>
+              <li>
+                Garantizar la calidad e integridad de código mediante el diseño
+                y desarrollo de pruebas unitarias
+              </li>
+              <li>
+                Trabajar con equipos multifuncionales utilizando metodologías
+                agiles para llevar a cabo proyectos de clientes
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Skills Section -->
+        <section id="skills">
+          <h2 class="mb-8 text-3xl font-bold">Habilidades</h2>
+          <div class="py-10">
+            <div class="grid gap-8 text-center md:grid-cols-5">
+              <div class="flex flex-col">
+                <i class="text-4xl devicon-javascript-plain"></i>
+                <div><span class="text-xs">Javascript</span></div>
+              </div>
+              <div class="flex flex-col">
+                <i class="text-4xl devicon-html5-plain"></i>
+                <div><span class="text-xs">Html</span></div>
+              </div>
+              <div class="flex flex-col">
+                <i class="text-4xl devicon-css3-plain"></i>
+                <div><span class="text-xs">CSS</span></div>
+              </div>
+              <div class="flex flex-col">
+                <i class="text-4xl devicon-python-plain"></i>
+                <div><span class="text-xs">Python</span></div>
+              </div>
+              <div class="flex flex-col">
+                <i class="text-4xl devicon-django-plain"></i>
+                <div><span class="text-xs">Django</span></div>
+              </div>
+              <div class="flex flex-col">
+                <i class="text-4xl devicon-react-original"></i>
+                <div><span class="text-xs">React</span></div>
+              </div>
+              <div class="flex flex-col">
+                <i class="text-4xl devicon-nodejs-plain"></i>
+                <div><span class="text-xs">Node.js</span></div>
+              </div>
+              <div class="flex flex-col">
+                <i class="text-4xl devicon-postgresql-plain"></i>
+                <div><span class="text-xs">PostgreSQL</span></div>
+              </div>
+              <div class="flex flex-col">
+                <i class="text-4xl devicon-git-plain"></i>
+                <div><span class="text-xs">Git</span></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="flex items-center justify-center h-[25vh] py-5 px-3">
+          <p>© 2024 Raúl Ruilova</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
